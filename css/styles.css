@@ -29,6 +29,50 @@ h1 {
   font-size: 2.4rem;
 }
 
+a {
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--color-primary);
+  padding: 1.5rem 3.5rem;
+  border-radius: 30px;
+  border: solid 2px var(--color-primary);
+}
+
+.btn--orange {
+  color: var(--color-orange);
+}
+
+.btn--cyan {
+  color: var(--color-cyan);
+}
+
+.btn--dark-cyan {
+  color: var(--color-dark-cyan);
+}
+
+.btn:hover {
+  border: solid 2px var(--color-primary);
+  color: var(--color-primary);
+  transition: all 0.2s ease-in;
+}
+
+.btn--orange:hover {
+  background-color: var(--color-orange);
+}
+
+.btn--cyan:hover {
+  background-color: var(--color-cyan);
+}
+
+.btn--dark-cyan:hover {
+  background-color: var(--color-dark-cyan);
+}
+
 /* Attributions */
 .attribution {
   font-size: 11px;
