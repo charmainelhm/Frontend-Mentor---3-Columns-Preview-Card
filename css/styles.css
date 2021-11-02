@@ -1,0 +1,40 @@
+:root {
+  --color-orange: #e38826;
+  --color-cyan: #006970;
+  --color-dark-cyan: #004241;
+  --color-primary: #f2f2f2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #ffffffbf;
+  font-family: "Lexend Deca", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: var(--color-primary);
+  font-family: "Big Shoulders Display", Impact, cursive;
+  font-weight: 900;
+  font-size: 2.4rem;
+}
+
+/* Attributions */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
