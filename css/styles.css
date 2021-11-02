@@ -11,6 +11,13 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
 /* Typography */
 html {
   font-size: 62.5%;
@@ -70,6 +77,31 @@ a {
 }
 
 .btn--dark-cyan:hover {
+  background-color: var(--color-dark-cyan);
+}
+/* Cards */
+.card {
+  padding: 4rem;
+}
+
+.card h1 {
+  text-transform: uppercase;
+}
+
+.card p {
+  line-height: 2.5rem;
+  padding-bottom: 4rem;
+}
+
+.card--orange {
+  background-color: var(--color-orange);
+}
+
+.card--cyan {
+  background-color: var(--color-cyan);
+}
+
+.card--dark-cyan {
   background-color: var(--color-dark-cyan);
 }
 
