@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-card-component-using-grid-html-css-OdVYIPbY5)
+- Live Site URL: [Live Site](https://jolly-turing-6e4b13.netlify.app/)
 
 ## My process
 
